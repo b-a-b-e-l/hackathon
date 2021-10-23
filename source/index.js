@@ -1,5 +1,6 @@
 const bubble = document.getElementById("bubble")
 const cat = document.getElementById("cat")
+const reload = document.getElementById("reload")
 const gifs = [
             "source/images/gati-100.gif", "source/images/gati-yass.gif", 
             "source/images/gati-great.gif", "source/images/gati-win.gif", 
@@ -8,6 +9,10 @@ const gifs = [
 window.addEventListener("load", function() {
     const loader = this.document.getElementById("loader")
     loader.className += " hidden"
+})
+
+reload.addEventListener("click", function() {
+    window.location.reload();
 })
 
 fetch("https://opensheet.vercel.app/124kEA4HsZhu5nAV9xQ1iq-0ob9GqFwHU72JYHDSlY2o/shoutout")

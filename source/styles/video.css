@@ -1,0 +1,18 @@
+body {
+    font-family: 'Comic Neue', cursive;
+    background-color: #C9F1FF72;
+  }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+  .frame {
+      margin: auto;
+      padding: 16px;
+      background-color: #118BFE;
+  }
