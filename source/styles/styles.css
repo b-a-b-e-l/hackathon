@@ -19,7 +19,6 @@ body {
 }
 
 @keyframes fadeOut {
-
   100% {
     opacity: 0;
     visibility: hidden;
@@ -28,6 +27,8 @@ body {
 }
 
 .container {
+  height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,4 +67,8 @@ body {
 
 .hola {
   min-width: 353px;
+}
+
+.reload{
+  background-color: chartreuse;
 }
