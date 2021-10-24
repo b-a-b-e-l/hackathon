@@ -36,15 +36,21 @@ body {
   background-color: #C9F1FF72;
 }
 
+.video-container {
+  background-image: url("../images/backvid1.gif");
+  background-color: #C9F1FF72;
+  /* position: relative; */
+}
+
 .bubble {
   position: relative;
   width: 420px;
   font-size: 30px;
   line-height: 40px;
   border-radius: 33px;
-  padding: 24px;
+  padding: 20px;
   text-align: center;
-  border: 2px solid #FB98FE;
+  border: 2px solid #F39CFC;
 }
 
 .bubble:after {
@@ -52,7 +58,7 @@ body {
     position: absolute;
     border-style: solid;
     border-width: 38px 16px 0;
-    border-color: #FB98FE transparent;
+    border-color: #F39CFC transparent;
     display: block;
     width: 0;
     z-index: 1;
@@ -60,62 +66,92 @@ body {
     left: 70%;
 }
 
-.cat {
-  margin-top: 16px;
+footer {
+  color: #118BFE !important;
 }
 
-.hola {
-  min-width: 353px;
+
+.cat {
+  margin-top: 16px;
+  min-width: 313px;
 }
 
 .buttons {
-  margin: 33px 0;
+  margin: 30px 0;
+  display: flex;
+  justify-items: end;
 }
 
 .primary, .secondary {
   text-align: center;
   cursor: pointer;
-  font-size:24px;
-  padding: 10px 30px;  
+  font-size:20px;
+  padding: 10px 20px;  
   outline: none;
   border: none;
   border-radius:13px;
-  box-shadow: 0 9px #95a5a6;
+  box-shadow: 0 9px #8EAEFC;
+  color: #fff;
+  text-decoration: none;
 }
 
 .primary {
-  background-color: #0177e7;
+  background-color: #F39CFC;
+  margin-left: 20px;
 }
 
 .secondary{
-  background-color: #118bfe;
+  background-color: #02B9FF;
+  margin-right: 20px;
 }
 
 .primary:active {
-  background-color: #2ecc71;
-  box-shadow: 0 5px #95a5a6;
+  background-color: #FAD1FF;
+  box-shadow: 0 5px #8EAEFC;
   transform: translateY(4px);
+  color: #34c7ff;
 }
 
 .primary:hover {
-  background-color: #0177e7;
+  background-color: #FAD1FF;
 }
 
 
 .secondary:hover{
-  background-color: #118bfe;
+  background-color: #34c7ff;
 }
 
 .secondary:active {
-  background-color: #2ecc71;
-  box-shadow: 0 5px #95a5a6;
+  background-color: #34c7ff;
+  box-shadow: 0 5px #8EAEFC;
   transform: translateY(4px);
+  color: #F39CFC;
+}
+
+.frame-container {
+  position: relative;
+  z-index: 1;
+  margin-top: 100px;
 }
 
 .frame {
+  position: relative;
   padding: 30px;
   background-color: #118BFE;
   margin-bottom: 33px;
-  border: 2px solid #FB98FE;
+  border: 5px solid #F39CFC;
   border-radius: 33px;
+}
+
+.frame:after {
+  content: url("../images/gati-like.gif");
+  position: absolute;
+  z-index: -1;
+  bottom: 50%;
+  left: 70%;
+}
+
+iframe {
+  -webkit-box-shadow: 5px 5px 30px 1px rgba(0,0,0,0.43); 
+  box-shadow: 5px 5px 30px 1px rgba(0,0,0,0.43); 
 }

@@ -29,6 +29,6 @@ fetch("https://opensheet.vercel.app/124kEA4HsZhu5nAV9xQ1iq-0ob9GqFwHU72JYHDSlY2o
     <div>${randomShout.text}</div>
     `
     cat.innerHTML = `
-    <img src="${randomCat}" class="hola" alt="animated cat illustration celebrating"/>
+    <img src="${randomCat}" class="cat" alt="animated cat illustration celebrating"/>
     `
 })
