@@ -1,6 +1,6 @@
 # SheSharp Hackaton October 2021
 
-##Shout-out generator
+## Shout-out generator
 
 - - Created Database and API with (100) picked motivational phrases that will show one by one randomly on loading the page, along with one animated cat image. 
 - - The colors in the speech bubble change with each quote. 
