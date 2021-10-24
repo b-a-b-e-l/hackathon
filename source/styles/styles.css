@@ -171,8 +171,13 @@ iframe {
     width: 100%;
 }
 
-.bubble {
+  .bubble {
   position: relative;
   width: 80%;
 }
+  .container {
+    width: 100vw;
+  }
+
+
 }
