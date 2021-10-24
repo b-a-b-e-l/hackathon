@@ -68,8 +68,18 @@ body {
 
 footer {
   color: #118BFE !important;
+  text-decoration: none;
 }
 
+footer > a:visited, .fab {
+  text-decoration: none;
+  color: #118BFE !important;
+}
+
+footer > a:hover, footer > i:hover, .fab {
+  text-decoration: none;
+  color: #F39CFC;
+}
 
 .cat {
   margin-top: 16px;
@@ -154,4 +164,15 @@ footer {
 iframe {
   -webkit-box-shadow: 5px 5px 30px 1px rgba(0,0,0,0.43); 
   box-shadow: 5px 5px 30px 1px rgba(0,0,0,0.43); 
+}
+
+@media screen and (max-device-width: 480px) {
+  iframe {
+    width: 100%;
+}
+
+.bubble {
+  position: relative;
+  width: 80%;
+}
 }
