@@ -170,7 +170,6 @@ iframe {
   iframe {
     width: 100%;
 }
-
   .bubble {
   position: relative;
   width: 80%;
@@ -178,6 +177,4 @@ iframe {
   .container {
     width: 100vw;
   }
-
-
 }
