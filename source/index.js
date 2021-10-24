@@ -18,12 +18,9 @@ reload.addEventListener("click", function() {
 fetch("https://opensheet.vercel.app/124kEA4HsZhu5nAV9xQ1iq-0ob9GqFwHU72JYHDSlY2o/shoutout")
 .then(res => res.json())
 .then(data => { 
-    console.log(data)
     const randomShout = data[Math.floor(Math.random()*data.length)];
     const randomCat = gifs[Math.floor(Math.random()*gifs.length)]
-    console.log(randomShout)
     bubble.style.backgroundColor = `${randomShout.backgroundcolor}`
-    //bubble.style.borderColor = `${randomShout.color}`
     bubble.style.color = `${randomShout.color}`
     bubble.innerHTML = `
     <div>${randomShout.text}</div>
