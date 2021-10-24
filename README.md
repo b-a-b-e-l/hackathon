@@ -1,26 +1,8 @@
-# hackathon-2021.vanilla-js.base-example
+# SheSharp Hackaton October 2021
 
-This repository was created to be used during the [SheSharp Hackathon 2021](https://www.shesharp.co/2021-hackathon/) as a boilerplate for one of the challenges proposed.
+##Shout-out generator
 
-## Requirements
-
-To be able to develop a Vanilla website you will need:
-
-1. A github account and repository
-2. [VS Code](https://code.visualstudio.com/download) installed on your machine
-3. [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension on VS Code
-4. With Live Server installed you can start a dev server follow the instructions on the install page
-5. Now you are ready to develop your site!
-
-## How do I set up github pages?
-
-- On your github repo go to the settings tab
-- In the menu at the left select the Pages tab
-- At **Source** select the branch: `main`
-- Keep the folder as: "/ (root)"
-
-Now you should see a green popup with your link
-
-## How can I update my github pages site?
-
-Because you have set up the GitHub pages it should be updated when you update your selected branch
+- - Created Database and API with (100) picked motivational phrases that will show one by one randomly on loading the page, along with one animated cat image. 
+- - The colors in the speech bubble change with each quote. 
+- - There are buttons to reload the page or to go to a motivational song.
+- - I believe in power the coincidence and getting the phrase you need to read in the right moment :)
