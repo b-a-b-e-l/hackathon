@@ -73,10 +73,10 @@ footer {
 
 footer > a:visited, .fab {
   text-decoration: none;
-  color: #118BFE !important;
+  color: #118BFE;
 }
 
-footer > a:hover, footer > i:hover, .fab {
+footer > a:hover, footer > i:hover, .fab:hover {
   text-decoration: none;
   color: #F39CFC;
 }
