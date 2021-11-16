@@ -1,6 +1,6 @@
-# SheSharp Hackaton October 2021
-
-## Shout-out generator
+# SheSharp Hackaton October 2021 
+## Winner Category: Most Polished
+## Shout-out generator : https://b-a-b-e-l.github.io/hackathon/
 
 - - Created Database and API with (120+) picked motivational phrases that will show one by one randomly on loading the page, along with one animated cat image. 
 - - The colors in the speech bubble can with each quote. 
